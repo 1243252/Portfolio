@@ -127,9 +127,10 @@ header .content h1{
     line-height: 4rem;
 }
 
+/* this is for the cool art of "Daniel" */
 header .content h1 span{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px #fff;
+    -webkit-text-stroke: 0.05px #b71818;
 }
 header .content p{
     margin-bottom: 2rem; /*does a space between text and button "Free Cube"*/
@@ -140,6 +141,7 @@ header .image{
     position: relative;
 }
 
+/* adjusting the blue circle */
 header .image::before{
     content: "o"; /* you can place different letters for the form*/
     position: absolute;
@@ -154,9 +156,25 @@ header .image::before{
     z-index: -100;
 }
 
+/* scaling the image with the programmer */
 header .image img{
     max-width: 600px;
     margin: auto;
+}
+
+section .header{
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
 
