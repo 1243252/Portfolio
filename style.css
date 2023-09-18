@@ -177,4 +177,70 @@ section .header{
     gap: 2rem;
 }
 
+.features .card{
+    background-color: #27272a;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 1rem;
+    transition: all 0.5s ease;
+    /* color: #b71818;   */
+}
 
+.features .card:hover{
+    background-color: #3e3d3d;
+    border-color: #ccc;
+}
+
+/* style of the icons in the feature boxes */
+.features .card span{
+    display: inline-block;
+    background-color: #1e40af;
+    padding: 2px 9px;
+    margin-bottom: 0.5rem; /* gap between Icon and text*/
+    font-size: 1.5rem;
+    color: #ccc;
+    border-radius: 15px;
+}
+
+.features .card h4{
+    color: #ccc;
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-bottom: 2px dashed #fff;
+}
+
+/* style the text  off the features*/
+.features .card p{
+    color: #c2bebe;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.sub-header{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #ccd1c4;
+}
+
+.informations{
+    color: #8d92a2;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 1rem;   
+}
+
+/* style of the checkbox */
+.informations .card i{
+    color: #538e80bb; 
+    background: transparent;
+}
+
+.informations:hover{
+    background-color: #465a5fbb;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    border-color: #3e3d3d;
+    transition:  all 0.5s ease;
+}
